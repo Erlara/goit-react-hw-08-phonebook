@@ -1,4 +1,3 @@
-import { Helmet } from 'react-helmet';
 import { RegisterForm } from 'components/RegisterForm/RegisterForm';
 
 const styles = {
@@ -12,9 +11,6 @@ const styles = {
 export default function Register() {
   return (
     <div style={styles.container}>
-      <Helmet>
-        <title>Registration</title>
-      </Helmet>
       <RegisterForm />
     </div>
   );
