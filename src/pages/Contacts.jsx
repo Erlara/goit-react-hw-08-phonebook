@@ -6,6 +6,15 @@ import { useSelector, useDispatch } from 'react-redux';
 import { fetchContacts } from 'redux/operations';
 import { selectError, selectIsLoading } from 'redux/selectors';
 
+const styles = {
+  container: {
+    minHeight: 'calc(100vh - 70px)',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+};
+
 export default function Contacts() {
   const dispatch = useDispatch();
   const isLoading = useSelector(selectIsLoading);
@@ -16,7 +25,7 @@ export default function Contacts() {
   }, [dispatch]);
 
   return (
-    <div>
+    <div style={styles.container}>
       <h1>Phonebook</h1>
       <ContactForm />
       {isLoading && !error && <b>Request in progress...</b>}

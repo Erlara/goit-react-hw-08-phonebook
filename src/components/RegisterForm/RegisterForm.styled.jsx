@@ -1,38 +1,38 @@
-import { useDispatch } from 'react-redux';
-import { register } from 'redux/auth/operations';
-import css from './RegisterForm.module.css';
+import styled from 'styled-components';
 
-export const RegisterForm = () => {
-  const dispatch = useDispatch();
+export const Form = styled.form`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 320px;
+  height: 300px;
+  margin-top: 70px;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px #072f13;
+`;
 
-  const handleSubmit = e => {
-    e.preventDefault();
-    const form = e.currentTarget;
-    dispatch(
-      register({
-        name: form.elements.name.value,
-        email: form.elements.email.value,
-        password: form.elements.password.value,
-      })
-    );
-    form.reset();
-  };
+export const Label = styled.label`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 80%;
+`;
 
-  return (
-    <form onSubmit={handleSubmit} autoComplete="off">
-      <label>
-        Username
-        <input type="text" name="name" />
-      </label>
-      <label>
-        Email
-        <input type="email" name="email" />
-      </label>
-      <label>
-        Password
-        <input type="password" name="password" />
-      </label>
-      <button type="submit">Register</button>
-    </form>
-  );
-};
+export const Button = styled.button`
+  margin-top: 30px;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #f0d29b;
+  :hover {
+    background-color: rgb(245, 161, 248);
+  }
+`;
+
+export const Input = styled.input`
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+`;
