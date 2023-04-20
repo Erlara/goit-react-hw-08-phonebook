@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.86873f93.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.36049bee.js",
     "static/js/415.b3d1225a.chunk.js": "/goit-react-hw-08-phonebook/static/js/415.b3d1225a.chunk.js",
-    "static/js/284.26ed8079.chunk.js": "/goit-react-hw-08-phonebook/static/js/284.26ed8079.chunk.js",
-    "static/js/427.0cec5372.chunk.js": "/goit-react-hw-08-phonebook/static/js/427.0cec5372.chunk.js",
+    "static/js/284.7241dd16.chunk.js": "/goit-react-hw-08-phonebook/static/js/284.7241dd16.chunk.js",
+    "static/js/427.50cce516.chunk.js": "/goit-react-hw-08-phonebook/static/js/427.50cce516.chunk.js",
     "static/js/386.0355c48e.chunk.js": "/goit-react-hw-08-phonebook/static/js/386.0355c48e.chunk.js",
-    "static/js/270.cdca11d3.chunk.js": "/goit-react-hw-08-phonebook/static/js/270.cdca11d3.chunk.js",
     "static/js/241.eb496fb9.chunk.js": "/goit-react-hw-08-phonebook/static/js/241.eb496fb9.chunk.js",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
-    "main.86873f93.js.map": "/goit-react-hw-08-phonebook/static/js/main.86873f93.js.map",
+    "main.36049bee.js.map": "/goit-react-hw-08-phonebook/static/js/main.36049bee.js.map",
     "415.b3d1225a.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/415.b3d1225a.chunk.js.map",
-    "284.26ed8079.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/284.26ed8079.chunk.js.map",
-    "427.0cec5372.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/427.0cec5372.chunk.js.map",
+    "284.7241dd16.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/284.7241dd16.chunk.js.map",
+    "427.50cce516.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/427.50cce516.chunk.js.map",
     "386.0355c48e.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/386.0355c48e.chunk.js.map",
-    "270.cdca11d3.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/270.cdca11d3.chunk.js.map",
     "241.eb496fb9.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/241.eb496fb9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.86873f93.js"
+    "static/js/main.36049bee.js"
   ]
 }
